@@ -2,6 +2,10 @@
 
 ## Yet another React boilerplate! 🙃
 
+The boilerplate makes no assumptions about what components, libraries or tools you may or may not require. Add what you need, when you need it.
+
+There are two basic components and a handful of CSS classes included.
+
 Quick setup for new projects, comes with:
 
 - [React](https://reactjs.org/)

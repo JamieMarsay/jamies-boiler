@@ -4,7 +4,7 @@ import "./Main.scss";
 
 const Main: FunctionComponent<IMain> = ({ Current }) => (
   <main className="main">
-    <div className="main__inner fade--in">
+    <div className="main__inner flex flex--centre flex--v-centre">
       <Current />
     </div>
   </main>

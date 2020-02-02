@@ -1,9 +1,10 @@
 import React, { FunctionComponent } from "react";
-import Heading from "@Components/Heading/Heading";
+import Typography from "@Components/Typography/Typography";
 
 const Home: FunctionComponent = () => (
-  <section>
-    <Heading title="Jamie's React Boilerplate" />
+  <section className="p--all-md">
+    <Typography text="Jamie's React Boilerplate" variant="h1" />
+    <Typography text="The boilerplate makes no assumptions about what components you may or may not require and so, to that end, provides 2 basic ones." />
   </section>
 );
 
